@@ -1,0 +1,10 @@
+{
+  "name": "robertoquadraccia-message-database",
+  "domain": false,
+  "hostname": "robertoquadraccia-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@robertoquadraccia-postgres-password"
+  },
+  "volumes": ["robertoquadraccia_message_database_volume:/var/lib/postgresql/data"]
+}

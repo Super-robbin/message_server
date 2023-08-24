@@ -1,0 +1,10 @@
+{
+  "name": "robertoquadraccia-message-web",
+  "domain": "robertoquadraccia-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "robertoquadraccia-message-database",
+    "POSTGRES_PASSWORD": "@robertoquadraccia-postgres-password"
+  }
+}
